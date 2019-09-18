@@ -1,0 +1,19 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m"
+	controllerName="com.agt.egitim.AGT_EGT_1.controller.Deneme" displayBlock="true">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<VBox class="sapUiSmallMargin">
+						<Text id="idText1" text="Hello World sdfsdfsdf"/>
+						<Button text="Default" press="onButtonPress1"></Button>
+						<Input placeholder="Buraya değer girinizzzz" liveChange="onLiveChange"></Input>
+						<Text id="idText2" text="initial"></Text>
+						<ComboBox id="idCombo" selectionChange="onSelectionChange"></ComboBox>
+						<RatingIndicator id="idRating" maxValue="5" class="sapUiSmallMarginBottom" value="4" tooltip="Rating Tooltip" />
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
